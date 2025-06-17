@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* paginaton 1 */
+
+.paginaton-1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.paginaton-1-page-1 {
+    border: 2px solid #eaeaea;
+    color: #000000;
+    padding: 10px 15px;
+    /* margin-right: 20px; */
+    border-radius: 8px;
+
+}
+
+.paginaton-1-page-1:hover {
+    background-color: #3f96fd;
+    transition: 0.8s;
+
+}
+
+.paginaton-1 a i {
+    font-size: 15px;
+}
+
+/* paginaton 2 */
+
+.paginaton-2 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.paginaton-2-page-1 {
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 20px;
+    height: 3px;
+    background-color: #3f96fd;
+    margin-top: 4px;
+    border-radius: 2px;
+    display: none;
+}
+
+.paginaton-2-page-1:hover .box {
+    display: block;
+}
+
+/* paginaton-3 */
+
+.paginaton-3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.paginaton-3-page-2 {
+    border: 2px solid #eaeaea;
+    color: #000000;
+    padding: 10px 10px;
+    /* margin-right: 20px; */
+    border-radius: 100%;
+    font-size: 16px;
+}
+
+.paginaton-3-page-1 {
+    border: 2px solid #eaeaea;
+    color: #000000;
+    padding: 10px 15px;
+    /* margin-right: 20px; */
+    border-radius: 100%;
+}
+
+.paginaton-3-page-1:hover,
+.paginaton-3-page-2:hover {
+    background-color: #3f96fd;
+    transition: 0.8s;
+    color: white;
+
+}
+
+/* .paginaton-4 */
+
+.paginaton-4 {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.op {
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 30px;
+    display: flex;
+    gap: 20px;
+
+}
+
+.paginaton-4-page-1 {
+    border: 2px solid white;
+    border-radius: 100%;
+    color: #000000;
+    padding: 5px 10px;
+
+}
+
+.paginaton-4-page-2 {
+    border: 2px solid white;
+    border-radius: 100%;
+    color: #000000;
+    padding: 10px 10px;
+    height: fit-content;
+    margin-top: 8px;
+}
+
+.paginaton-4-page-1:hover,
+.paginaton-4-page-2:hover {
+    background-color: #3f96fd;
+    transition: 0.8s;
+}
+
+
+/* paginaton-5 */
+
+.paginaton-5 {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 30px;
+}
+
+.paginaton-5-page-1 {
+    color: #000000;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.paginaton-5-page-1:hover {
+    background-color: #3f96fd;
+    transition: 0.8s;
+    color: white;
+
+}
